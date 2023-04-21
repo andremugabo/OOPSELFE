@@ -1,0 +1,20 @@
+import java.util.*;
+public class ArraySorting {
+   public static void main(String args[]) {
+	  Scanner read = new Scanner(System.in);
+	  int[] arr = new int[10];
+	  System.out.println("Enter element of array ");
+	  for(int i = 0;i<arr.length;i++) {
+		  arr[i]=read.nextInt();
+	  }
+	  
+	  BulbSort obj = new BulbSort();
+	  System.out.print("Array Before sorting ");
+	  obj.printArray(arr);
+	  System.out.println();
+	  obj.bulbSort(arr);
+	  System.out.print("Array after sorting ");
+	  obj.printArray(arr);
+	  
+   }
+}
