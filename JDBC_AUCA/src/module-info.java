@@ -5,5 +5,6 @@
  * @author A.M
  *
  */
-module BinarySorting {
+module JDBC_AUCA {
+	requires java.sql;
 }
